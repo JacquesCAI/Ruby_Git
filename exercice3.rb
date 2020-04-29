@@ -13,6 +13,6 @@ for i in 1..(array.length-1)
   end
 end
 
-puts "Le plus grand élement est : #{array[maximun]}"
+puts "Le plus grand élement est #{array[maximun]}"
 
 puts "La moyenne est " + (array.reduce{|a,b| a + b}/array.length).to_s
